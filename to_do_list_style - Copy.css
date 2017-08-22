@@ -1,0 +1,178 @@
+p{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+body{
+    background: url(To_Do_List.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    
+     
+}
+
+
+#todolistwrapper{
+    width: 960px;
+    text-align: center;
+    position: relative;
+    left: 270px;
+    top: 40px;
+    
+}
+
+#todolist:after{
+    clear: both;
+    display: table;
+    content: "";
+}
+
+#todolist ul{
+    width: 14.28%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+   float: left;
+    list-style: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#todolist li{
+    background: none;
+    padding: 5px;
+    border: none;
+    margin: 0;
+    text-align: left;
+    font-size: 16px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+#todolist li:hover{
+    background: #eee;
+    color: black;
+}
+
+#todolist li.listtitle{
+      background: #444;
+      color: white;
+    padding:10px;
+    text-align: center;
+    border-right: solid 1px white;
+    font-size: 17px;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#todolist li.listtitle:hover,
+#todolist li.listtitle:active{
+    cursor: default;
+    transform: none;
+}
+
+#todolist .emptyspace{
+    background: #fc3;
+    border: dashed 1px #777;
+    height: 10px;
+}
+
+#todolist li.additem{
+    display: none;
+    position: absolute;
+    top: 0;
+    background: none;
+    
+}
+
+#todolist ul:hover li.additem{
+    display: block;
+}
+
+#todolist li.additem input{
+    width: 100%;
+    padding:4px;
+}
+
+#todolist li.additem:active{
+    transform: none;
+}
+
+#trash{
+    width: 500px;
+    height: 300px;
+    background:rgba(178,73,38,0.7);
+    position: relative;
+    top:150px;
+    left:500px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#author{
+    position: relative;
+    height: 400px;
+    width: 1000px;
+    background: black;
+   opacity: 0.6;
+    left:250px;
+    top: 250px;
+}
+
+
+footer{
+    position: relative;
+    top: 300px;
+    clear: both;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 100;
+    
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#abtme{
+    font-size: 35px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+#f{
+    font-size: 25px;
+   
+}
+
+img{
+    float: left;
+    padding: 10px;
+}
+#info{
+    font-size: 25px;
+    
+}
+
+#heading{
+    color: white;
+    font-size: 40px;
+    
+}
